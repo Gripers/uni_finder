@@ -48,9 +48,9 @@ const Footer = () => {
           <h3>CONTACT US</h3>
           <div className={styles.line}></div>
           <p>
-            Let's Connect. Have questions or feedback? We'd love to hear from
-            you. Reach out to us through our contact form or email and a member
-            of our team will get back to you as soon as possible.
+            Let&apos;s Connect. Have questions or feedback? We&apos;d love to
+            hear from you. Reach out to us through our contact form or email and
+            a member of our team will get back to you as soon as possible.
           </p>
           <hr />
           <p>
