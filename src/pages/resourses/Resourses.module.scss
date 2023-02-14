@@ -1,0 +1,15 @@
+.courses,
+.books,
+.articles {
+  text-align: center;
+  margin: 26px 0;
+
+  .wrapper {
+    width: 95%;
+    max-width: 1300px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 26px auto;
+  }
+}

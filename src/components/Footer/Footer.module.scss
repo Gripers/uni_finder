@@ -1,0 +1,38 @@
+.footer {
+  background-color: #1e1e1e;
+  color: white;
+  padding: 20px;
+
+  .wrapper {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+
+    * {
+      font-weight: lighter;
+    }
+
+    .line {
+      width: 20px;
+      height: 2px;
+      background-color: #ffa500;
+      margin: 16px 0;
+    }
+
+    img {
+      width: 100px;
+    }
+
+    nav {
+      display: grid;
+    }
+
+    a {
+      color: white;
+    }
+
+    hr {
+      margin: 16px 0;
+    }
+  }
+}

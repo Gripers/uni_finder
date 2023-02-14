@@ -1,0 +1,30 @@
+.item {
+  width: 100%;
+  border-radius: 12px;
+  background-color: white;
+  overflow: hidden;
+
+  * {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .head {
+    max-height: 200px;
+    overflow: hidden;
+  }
+
+  .body {
+    padding: 10px;
+
+    ul {
+      list-style-type: none;
+
+      li {
+        display: flex;
+        gap: 8px;
+      }
+    }
+  }
+}
