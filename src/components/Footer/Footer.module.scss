@@ -19,6 +19,10 @@
       margin: 16px 0;
     }
 
+    div {
+      width: 100%;
+    }
+
     img {
       width: 100px;
     }
@@ -34,5 +38,17 @@
     hr {
       margin: 16px 0;
     }
+  }
+}
+
+@media all and (max-width: 600px) {
+  .footer .wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media all and (max-width: 500px) {
+  .footer .wrapper {
+    grid-template-columns: repeat(1, 1fr);
   }
 }

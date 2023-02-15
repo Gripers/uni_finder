@@ -31,6 +31,9 @@
           display: inline-block;
           border-radius: 8px;
           background-color: #1e1e1e;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
           padding: 2.5px;
         }
 
@@ -56,10 +59,33 @@
 
   .item__right {
     width: 100%;
+    display: flex;
+    justify-content: center;
 
     img {
       max-height: 200px;
       object-fit: contain;
     }
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .item {
+    flex-direction: column;
+    gap: 20px;
+
+    .item__left {
+      order: 2;
+    }
+
+    .item__right {
+      order: 1;
+    }
+  }
+}
+
+@media all and (max-width: 600px) {
+  .item .item__left .mini__form {
+    grid-template-columns: 1fr;
   }
 }

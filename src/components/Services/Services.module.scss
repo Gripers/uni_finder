@@ -20,8 +20,9 @@
   }
 
   .services__wrapper {
-    display: flex;
+    display: grid;
     gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
 
     .item {
       width: 100%;
@@ -46,5 +47,11 @@
         }
       }
     }
+  }
+}
+
+@media all and (max-width: 600px) {
+  .services .services__wrapper {
+    grid-template-columns: repeat(2, 1fr);
   }
 }

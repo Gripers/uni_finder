@@ -44,14 +44,18 @@
         border: none;
         border-radius: 12px;
         background-color: transparent;
-        transition: all 0.2s;
         padding: 10px 20px;
-
-        &:hover {
-          background-color: #ffa500;
-          color: white;
-        }
       }
+    }
+
+    .burger {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      border-radius: 50%;
+      overflow: hidden;
+      padding: 5px;
     }
   }
 }
