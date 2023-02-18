@@ -1,0 +1,6 @@
+.bg {
+  background-image: url(../assets/header_sec.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

@@ -13,7 +13,7 @@ import 'react-modern-drawer/dist/index.css';
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
-      <NextNProgress />
+      <NextNProgress options={{ showSpinner: false }} />
       <Provider store={store}>
         <Component {...pageProps} />
       </Provider>
